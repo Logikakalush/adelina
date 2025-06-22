@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+
+}
+.vintage{
+    background-color: black;
+    width:200px ;
+}
+.vintage img{
+    width:150px;
+}
+
+.sales{
+    display: flex;
+
+}
+.sales p{
+    position: relative;
+    right: 120px;
+    top:40px;
+    font-size: 30px;
+}
+.t{
+    display: flex;
+}
+.t a{
+    color: black;
+    background-color: gray;
+    text-decoration: none;
+    border-radius:15px;
+    margin: 25px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+article{
+    display: flex;
+    padding:20px;
+}
+article img{
+    width: 250px;
+}
+article div{
+margin: 20px;    
+}
+.sales p{
+    color: white;
+    font-size: 15px;
+}
+footer {
+    display: flex;
+    padding: 10px;
+    background-color: lightblue;
+}
+footer div{
+    margin: 10px;
+    justify-content: space-around;
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    background-color:lightblue;
+    border-radius: 15px;
+    margin: 25px;
+    padding: 10px;
+}
+nav{
+    margin:25px;
+}
+.t a{
+    background-color:lightblue ;
+}
+a:hover{
+background-color: coral;
+transition: 3s;
+}
+.vintage{
+    width: 30%;
+}
