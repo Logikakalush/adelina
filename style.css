@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background-color: rgb(212, 255, 241);
 
 }
 .vintage{
@@ -23,6 +24,10 @@ body {
 .t{
     display: flex;
 }
+.t div{
+    margin: 20px;
+}
+
 .t a{
     color: black;
     background-color: gray;
@@ -33,6 +38,8 @@ body {
 }
 h2{
     text-align: center;
+        padding: 10px;
+        font-size: 30px;
 }
 article{
     display: flex;
@@ -67,6 +74,8 @@ nav a{
 }
 nav{
     margin:25px;
+    background-color: rgb(54, 102, 102);
+    padding: 20px;
 }
 .t a{
     background-color:lightblue ;
